@@ -1,0 +1,385 @@
+[
+  {
+    "page": "home",
+    "preset": "mobile",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "1.5 s",
+      "largest-contentful-paint": "2.5 s",
+      "total-blocking-time": "10 ms",
+      "cumulative-layout-shift": "0.002",
+      "speed-index": "1.5 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 27 KiB)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0, Est savings of 890 ms)"
+    ]
+  },
+  {
+    "page": "home",
+    "preset": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.2 s",
+      "largest-contentful-paint": "0.4 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.2 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 27 KiB)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0.5)"
+    ]
+  },
+  {
+    "page": "new-arrivals",
+    "preset": "mobile",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.9 s",
+      "largest-contentful-paint": "2.0 s",
+      "total-blocking-time": "10 ms",
+      "cumulative-layout-shift": "0.027",
+      "speed-index": "1.1 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 25 KiB)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0, Est savings of 140 ms)"
+    ]
+  },
+  {
+    "page": "new-arrivals",
+    "preset": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.4 s",
+      "largest-contentful-paint": "0.5 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.4 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 25 KiB)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0.5)"
+    ]
+  },
+  {
+    "page": "product",
+    "preset": "mobile",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.9 s",
+      "largest-contentful-paint": "2.1 s",
+      "total-blocking-time": "10 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.9 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 27 KiB)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0, Est savings of 150 ms)"
+    ]
+  },
+  {
+    "page": "product",
+    "preset": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.3 s",
+      "largest-contentful-paint": "0.5 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.3 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 27 KiB)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0.5)"
+    ]
+  },
+  {
+    "page": "bag",
+    "preset": "mobile",
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "0.8 s",
+      "largest-contentful-paint": "3.2 s",
+      "total-blocking-time": "10 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.8 s"
+    },
+    "failing": [
+      "largest-contentful-paint (0.71, 3.2 s)",
+      "unused-javascript (0, Est savings of 25 KiB)",
+      "is-crawlable (0)",
+      "legacy-javascript-insight (0, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0, Est savings of 140 ms)"
+    ]
+  },
+  {
+    "page": "bag",
+    "preset": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "0.2 s",
+      "largest-contentful-paint": "0.7 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.2 s"
+    },
+    "failing": [
+      "unused-javascript (0, Est savings of 26 KiB)",
+      "is-crawlable (0)",
+      "lcp-discovery-insight (0)",
+      "legacy-javascript-insight (0, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0.5)"
+    ]
+  },
+  {
+    "page": "checkout-delivery",
+    "preset": "mobile",
+    "scores": {
+      "performance": 93,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "0.8 s",
+      "largest-contentful-paint": "3.2 s",
+      "total-blocking-time": "10 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.8 s"
+    },
+    "failing": [
+      "largest-contentful-paint (0.71, 3.2 s)",
+      "color-contrast (0)",
+      "unused-javascript (0, Est savings of 26 KiB)",
+      "is-crawlable (0)",
+      "legacy-javascript-insight (0, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0, Est savings of 140 ms)"
+    ]
+  },
+  {
+    "page": "checkout-delivery",
+    "preset": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "0.2 s",
+      "largest-contentful-paint": "0.7 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.2 s"
+    },
+    "failing": [
+      "color-contrast (0)",
+      "unused-javascript (0.5, Est savings of 26 KiB)",
+      "is-crawlable (0)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0.5)"
+    ]
+  },
+  {
+    "page": "women",
+    "preset": "mobile",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "1.7 s",
+      "largest-contentful-paint": "2.7 s",
+      "total-blocking-time": "10 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "1.7 s"
+    },
+    "failing": [
+      "largest-contentful-paint (0.85, 2.7 s)",
+      "unused-javascript (0.5, Est savings of 25 KiB)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0, Est savings of 890 ms)"
+    ]
+  },
+  {
+    "page": "women",
+    "preset": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.4 s",
+      "largest-contentful-paint": "0.7 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.4 s"
+    },
+    "failing": [
+      "unused-javascript (0, Est savings of 25 KiB)",
+      "legacy-javascript-insight (0, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0.5)"
+    ]
+  },
+  {
+    "page": "search",
+    "preset": "mobile",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "0.8 s",
+      "largest-contentful-paint": "3.4 s",
+      "total-blocking-time": "20 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "1.0 s"
+    },
+    "failing": [
+      "largest-contentful-paint (0.67, 3.4 s)",
+      "unused-javascript (0, Est savings of 25 KiB)",
+      "is-crawlable (0)",
+      "lcp-discovery-insight (0)",
+      "legacy-javascript-insight (0, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0, Est savings of 140 ms)"
+    ]
+  },
+  {
+    "page": "search",
+    "preset": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "0.2 s",
+      "largest-contentful-paint": "0.7 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.3 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 25 KiB)",
+      "is-crawlable (0)",
+      "lcp-discovery-insight (0)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0.5)"
+    ]
+  },
+  {
+    "page": "the-house",
+    "preset": "mobile",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.8 s",
+      "largest-contentful-paint": "2.0 s",
+      "total-blocking-time": "10 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.8 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 27 KiB)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0, Est savings of 140 ms)"
+    ]
+  },
+  {
+    "page": "the-house",
+    "preset": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.4 s",
+      "largest-contentful-paint": "0.6 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0.002",
+      "speed-index": "0.4 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 27 KiB)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0.5)"
+    ]
+  }
+]

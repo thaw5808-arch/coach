@@ -1,0 +1,104 @@
+PASS  Mega trigger has aria-expanded=false initially
+PASS  Hover delay: still closed at 80ms
+PASS  Hover opens panel
+PASS  aria-controls points at visible panel
+PASS  Panel stays open while pointer moves into it
+PASS  Leaving panel closes it
+PASS  Clicking WOMEN while hover-open navigates to /women
+PASS  WOMEN shows active pill (aria-current=page) on /women
+PASS  Active pill classes
+PASS  "All Bags" highlighted as current on /women
+PASS  Enter opens menu
+PASS  Esc closes menu
+PASS  Esc returns focus to trigger
+PASS  ArrowDown opens menu
+PASS  ArrowDown focuses first link
+PASS  Tab moves to next panel link (Totes)
+PASS  ArrowDown moves between links
+PASS  Tab order walks panel then reaches MEN  — Shoulder Bags › Crossbody › Mini Bags › Wallets › Card Cases › Wristlets › Bag Charms › The Tabby › Signature Canvas › The Chapter Edit › Cargo Canvas › Discover The Quilted Tabby › Men
+PASS  Menu closes once focus leaves
+PASS  Space opens menu
+PASS  Click outside closes menu
+PASS  Mega link 'Crossbody' → ?type=crossbody
+PASS  Menu closed after link click
+PASS  Crossbody filter results  — Quilted Tabby 20, Nolita 19
+PASS  Default (featured) order matches Figma  — Cargo Tote, City Tote, Quilted Tabby 20, Nolita 19, Chapter Shoulder Bag, Petal Chain Bag, Chapter Signature Bag, Signature Mini Bag
+PASS  Chip Totes → URL ?type=totes
+PASS  Totes results  — Cargo Tote, City Tote
+PASS  Drawer open (role=dialog)
+PASS  Body scroll locked while drawer open
+PASS  Drawer live count  — Show 2 pieces
+PASS  Drawer edits don't touch URL until applied
+PASS  Apply → URL type+colour  — ?type=totes&colour=brown
+PASS  Filters chip shows count
+PASS  Applied tags rendered  — Totes|Colour: Brown
+PASS  Sort → URL  — ?type=totes&colour=brown&sort=price-desc
+PASS  Reload keeps filters + sort
+PASS  Reload keeps tags
+PASS  Filtered grid is server-rendered
+PASS  Back undoes sort  — ?type=totes&colour=brown
+PASS  Back undoes colour  — ?type=totes
+PASS  Forward re-applies colour
+PASS  Removing a tag
+PASS  Combined filters + sort  — Nolita 19, Signature Mini Bag
+PASS  Clear all keeps sort, drops facets  — ?sort=price-asc
+PASS  Price low→high order  — 195,225,275,295,295,325,350,495
+PASS  Facet type=top-handle  — 1: Cargo Tote
+PASS  Facet type=mini-bags  — 2: Nolita 19, Signature Mini Bag
+PASS  Facet colour=black  — 7: Cargo Tote, City Tote, Quilted Tabby 20, Chapter Shoulder Bag, Petal Chain Bag, Chapter Signature Bag, Signature Mini Bag
+PASS  Facet material=nappa-leather  — 1: Quilted Tabby 20
+PASS  Facet price=400-plus  — 1: Quilted Tabby 20
+PASS  Facet price=250-400  — 5: Cargo Tote, City Tote, Chapter Shoulder Bag, Petal Chain Bag, Chapter Signature Bag
+PASS  Facet sort=newest  — 8: Cargo Tote, Nolita 19, Chapter Shoulder Bag, Petal Chain Bag, Chapter Signature Bag, City Tote, Quilted Tabby 20, Signature Mini Bag
+PASS  Unknown params ignored
+PASS  No-results copy
+PASS  Notify me reveals focused email field
+PASS  Notify success message
+PASS  Clear filters restores collection
+PASS  Quick view visible on hover  — opacity 1
+PASS  Wishlist heart toggles pressed
+PASS  Wishlist persisted (WishlistContext → localStorage)
+PASS  Heart click did not navigate
+PASS  Wishlist toggles back off
+PASS  Desktop count text
+PASS  Silhouette tile → ?type=crossbody
+PASS  <title>
+PASS  canonical is clean /women
+PASS  meta description
+PASS  Breadcrumb JSON-LD
+PASS  Mobile menu open
+PASS  Mobile menu marks Women current
+PASS  Sheet open
+PASS  Body scroll locked
+PASS  Sheet live count  — Show 1 piece
+PASS  Focus trapped in sheet
+PASS  Esc closes sheet without applying
+PASS  Scroll lock released
+PASS  Scrim tap closes sheet
+PASS  Apply from sheet → URL + matching count  — 6 pieces
+PASS  Mobile Filters (2)
+PASS  Mobile shows 6 initially
+PASS  Mobile count text
+PASS  Load more reveals the rest
+PASS  Focus moved to first new card
+PASS  Load more hidden when complete
+PASS  Compact card has no hover-only Quick view
+
+ERRORS:
+none
+
+PASS  [1440] NA initial 6 cards  — Chapter Shoulder Bag, Chapter Signature Bag, Petal Chain Bag, Cargo Tote, Charter Camera Bag, Nolita 19
+PASS  [1440] NA Blush Edit present
+PASS  [1440] NA chip → ?type=chain-straps  — Chapter Shoulder Bag, Chapter Signature Bag, Petal Chain Bag, Quilted Tabby 20
+PASS  [1440] NA no-results (plain style)
+PASS  [1440] NA Back
+PASS  [1440] NA load more  — 12 of 13
+PASS  [393] NA initial 6 cards  — Chapter Shoulder Bag, Chapter Signature Bag, Petal Chain Bag, Cargo Tote, Charter Camera Bag, Nolita 19
+PASS  [393] NA Blush Edit present
+PASS  [393] NA chip → ?type=chain-straps  — Chapter Shoulder Bag, Chapter Signature Bag, Petal Chain Bag, Quilted Tabby 20
+PASS  [393] NA no-results (plain style)
+PASS  [393] NA Back
+PASS  [393] NA load more  — 12 of 13
+PASS  PDP renders + breadcrumb to /women
+PASS  Bag renders
+pageerrors: none

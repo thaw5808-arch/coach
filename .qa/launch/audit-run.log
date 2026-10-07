@@ -1,0 +1,63 @@
+
+> coach@0.1.0 audit
+> next build && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/audit.ts
+
+▲ Next.js 16.3.8 (Turbopack)
+✓ Running next.config.ts took 17ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 964ms
+  Running TypeScript ...
+  Finished TypeScript in 589ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/34) ...
+  Generating static pages using 7 workers (8/34) 
+  Generating static pages using 7 workers (16/34) 
+  Generating static pages using 7 workers (25/34) 
+✓ Generating static pages using 7 workers (34/34) in 423ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /__test/error
+├ ○ /__test/global-error
+├ ○ /__test/offline
+├ ○ /_not-found
+├ ○ /account
+├ ○ /bag
+├ ƒ /bags
+├ ○ /checkout/delivery
+├ ○ /checkout/payment
+├ ○ /client-care
+├ ○ /icon.svg
+├ ƒ /men
+├ ƒ /new-arrivals
+├ ƒ /order/[id]
+├   /products/[slug]
+│ ├ ● /products/chapter-shoulder-bag
+│ ├ ● /products/chapter-signature-bag
+│ ├ ● /products/petal-chain-bag
+│ └ ● [+10 more paths]
+├ ○ /robots.txt
+├ ƒ /search
+├ ○ /sitemap.xml
+├ ○ /the-house
+├ ƒ /wishlist
+└ ƒ /women
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+Auditing http://localhost:3100
+1/7 purchase
+2/7 crawl
+3/7 links
+4/7 buttons
+5/7 flows
+6/7 a11y
+7/7 seo + launch
+
+4328 checks, 0 failed → .qa/audit/report.md
+exit 0

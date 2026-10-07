@@ -1,0 +1,144 @@
+PASS  / Women: not open before intent delay
+PASS  / Women: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"1","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  / Women: stays open while moving into panel
+PASS  / Women: still open 60ms after leaving (grace)
+PASS  / Women: closed ~150ms after leaving
+PASS  / Women: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  / Women: Esc closes immediately
+PASS  / Women: scrolling closes immediately
+PASS  / Women: Enter opens (aria-expanded)
+PASS  / Women: keyboard-open survives pointer elsewhere
+PASS  / Women: Tab enters panel
+PASS  / Women: click outside closes
+PASS  / Women: ArrowDown opens + focuses first link
+PASS  / Women: focus leaving closes
+PASS  / Men: not open before intent delay
+PASS  / Men: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"1","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  / Men: stays open while moving into panel
+PASS  / Men: still open 60ms after leaving (grace)
+PASS  / Men: closed ~150ms after leaving
+PASS  / Men: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  / Men: Esc closes immediately
+PASS  / Men: scrolling closes immediately
+PASS  / Men: Enter opens (aria-expanded)
+PASS  / Men: keyboard-open survives pointer elsewhere
+PASS  / Men: Tab enters panel
+PASS  / Men: click outside closes
+PASS  / Men: ArrowDown opens + focuses first link
+PASS  / Men: focus leaving closes
+PASS  /new-arrivals Women: not open before intent delay
+PASS  /new-arrivals Women: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"1","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  /new-arrivals Women: stays open while moving into panel
+PASS  /new-arrivals Women: still open 60ms after leaving (grace)
+PASS  /new-arrivals Women: closed ~150ms after leaving
+PASS  /new-arrivals Women: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  /new-arrivals Women: Esc closes immediately
+PASS  /new-arrivals Women: scrolling closes immediately
+PASS  /new-arrivals Women: Enter opens (aria-expanded)
+PASS  /new-arrivals Women: keyboard-open survives pointer elsewhere
+PASS  /new-arrivals Women: Tab enters panel
+PASS  /new-arrivals Women: click outside closes
+PASS  /new-arrivals Women: ArrowDown opens + focuses first link
+PASS  /new-arrivals Women: focus leaving closes
+PASS  /new-arrivals Men: not open before intent delay
+PASS  /new-arrivals Men: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"0.999978","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  /new-arrivals Men: stays open while moving into panel
+PASS  /new-arrivals Men: still open 60ms after leaving (grace)
+PASS  /new-arrivals Men: closed ~150ms after leaving
+PASS  /new-arrivals Men: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  /new-arrivals Men: Esc closes immediately
+PASS  /new-arrivals Men: scrolling closes immediately
+PASS  /new-arrivals Men: Enter opens (aria-expanded)
+PASS  /new-arrivals Men: keyboard-open survives pointer elsewhere
+PASS  /new-arrivals Men: Tab enters panel
+PASS  /new-arrivals Men: click outside closes
+PASS  /new-arrivals Men: ArrowDown opens + focuses first link
+PASS  /new-arrivals Men: focus leaving closes
+PASS  /women Women: not open before intent delay
+PASS  /women Women: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"0.999991","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  /women Women: stays open while moving into panel
+PASS  /women Women: still open 60ms after leaving (grace)
+PASS  /women Women: closed ~150ms after leaving
+PASS  /women Women: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  /women Women: Esc closes immediately
+PASS  /women Women: scrolling closes immediately
+PASS  /women Women: Enter opens (aria-expanded)
+PASS  /women Women: keyboard-open survives pointer elsewhere
+PASS  /women Women: Tab enters panel
+PASS  /women Women: click outside closes
+PASS  /women Women: ArrowDown opens + focuses first link
+PASS  /women Women: focus leaving closes
+PASS  /women Men: not open before intent delay
+PASS  /women Men: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"1","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  /women Men: stays open while moving into panel
+PASS  /women Men: still open 60ms after leaving (grace)
+PASS  /women Men: closed ~150ms after leaving
+PASS  /women Men: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  /women Men: Esc closes immediately
+PASS  /women Men: scrolling closes immediately
+PASS  /women Men: Enter opens (aria-expanded)
+PASS  /women Men: keyboard-open survives pointer elsewhere
+PASS  /women Men: Tab enters panel
+PASS  /women Men: click outside closes
+PASS  /women Men: ArrowDown opens + focuses first link
+PASS  /women Men: focus leaving closes
+PASS  /men Women: not open before intent delay
+PASS  /men Women: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"0.99998","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  /men Women: stays open while moving into panel
+PASS  /men Women: still open 60ms after leaving (grace)
+PASS  /men Women: closed ~150ms after leaving
+PASS  /men Women: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  /men Women: Esc closes immediately
+PASS  /men Women: scrolling closes immediately
+PASS  /men Women: Enter opens (aria-expanded)
+PASS  /men Women: keyboard-open survives pointer elsewhere
+PASS  /men Women: Tab enters panel
+PASS  /men Women: click outside closes
+PASS  /men Women: ArrowDown opens + focuses first link
+PASS  /men Women: focus leaving closes
+PASS  /men Men: not open before intent delay
+PASS  /men Men: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"0.999982","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  /men Men: stays open while moving into panel
+PASS  /men Men: still open 60ms after leaving (grace)
+PASS  /men Men: closed ~150ms after leaving
+PASS  /men Men: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  /men Men: Esc closes immediately
+PASS  /men Men: scrolling closes immediately
+PASS  /men Men: Enter opens (aria-expanded)
+PASS  /men Men: keyboard-open survives pointer elsewhere
+PASS  /men Men: Tab enters panel
+PASS  /men Men: click outside closes
+PASS  /men Men: ArrowDown opens + focuses first link
+PASS  /men Men: focus leaving closes
+PASS  route change closes
+PASS  [reduced] /women Women: not open before intent delay
+PASS  [reduced] /women Women: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"1","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  [reduced] /women Women: stays open while moving into panel
+PASS  [reduced] /women Women: still open 60ms after leaving (grace)
+PASS  [reduced] /women Women: closed ~150ms after leaving
+PASS  [reduced] /women Women: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  [reduced] /women Women: Esc closes immediately
+PASS  [reduced] /women Women: scrolling closes immediately
+PASS  [reduced] /women Women: Enter opens (aria-expanded)
+PASS  [reduced] /women Women: keyboard-open survives pointer elsewhere
+PASS  [reduced] /women Women: Tab enters panel
+PASS  [reduced] /women Women: click outside closes
+PASS  [reduced] /women Women: ArrowDown opens + focuses first link
+PASS  [reduced] /women Women: focus leaving closes
+PASS  [reduced] /women Men: not open before intent delay
+PASS  [reduced] /women Men: opens on hover, topmost, white, z  — {"expanded":"true","visibility":"visible","opacity":"1","pe":"auto","bg":"rgb(255, 255, 255)","top":true,"z":"40","pz":"50"}
+PASS  [reduced] /women Men: stays open while moving into panel
+PASS  [reduced] /women Men: still open 60ms after leaving (grace)
+PASS  [reduced] /women Men: closed ~150ms after leaving
+PASS  [reduced] /women Men: fully hidden after close  — {"expanded":"false","visibility":"hidden","opacity":"0","pe":"none","bg":"rgb(255, 255, 255)","top":false,"z":"40","pz":"50"}
+PASS  [reduced] /women Men: Esc closes immediately
+PASS  [reduced] /women Men: scrolling closes immediately
+PASS  [reduced] /women Men: Enter opens (aria-expanded)
+PASS  [reduced] /women Men: keyboard-open survives pointer elsewhere
+PASS  [reduced] /women Men: Tab enters panel
+PASS  [reduced] /women Men: click outside closes
+PASS  [reduced] /women Men: ArrowDown opens + focuses first link
+PASS  [reduced] /women Men: focus leaving closes
+PASS  [reduced] route change closes
+PASS  [reduced] no transition
+pageerrors: none

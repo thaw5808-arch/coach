@@ -1,0 +1,89 @@
+PASS  /: hover opens Bags panel on top  — {"expanded":"true","vis":"visible","op":"1","top":true}
+PASS  /: stays open inside panel
+PASS  /: closes on leave, nothing left behind  — {"expanded":"false","vis":"hidden","op":"0","top":false}
+PASS  /women: hover opens Bags panel on top  — {"expanded":"true","vis":"visible","op":"1","top":true}
+PASS  /women: stays open inside panel
+PASS  /women: closes on leave, nothing left behind  — {"expanded":"false","vis":"hidden","op":"0","top":false}
+PASS  /men: hover opens Bags panel on top  — {"expanded":"true","vis":"visible","op":"1","top":true}
+PASS  /men: stays open inside panel
+PASS  /men: closes on leave, nothing left behind  — {"expanded":"false","vis":"hidden","op":"0","top":false}
+PASS  /new-arrivals: hover opens Bags panel on top  — {"expanded":"true","vis":"visible","op":"1","top":true}
+PASS  /new-arrivals: stays open inside panel
+PASS  /new-arrivals: closes on leave, nothing left behind  — {"expanded":"false","vis":"hidden","op":"0","top":false}
+PASS  /bags: hover opens Bags panel on top  — {"expanded":"true","vis":"visible","op":"1","top":true}
+PASS  /bags: stays open inside panel
+PASS  /bags: closes on leave, nothing left behind  — {"expanded":"false","vis":"hidden","op":"0","top":false}
+PASS  BAGS active pill on /bags
+PASS  Enter opens
+PASS  Tab enters panel (All Women’s Bags)
+PASS  Esc closes
+PASS  ArrowDown opens + focuses first link
+PASS  Menu "All Women’s Bags" → /bags?for=her  — tags [For Her] → 8: City Tote, Quilted Tabby 20, Nolita 19, Chapter Shoulder Bag, Chapter Signature Bag, Petal Chain Bag, Cargo Tote, Signature Mini Bag
+PASS  Menu "Totes" → /bags?for=her&type=totes  — tags [For Her, Totes] → 2: City Tote, Cargo Tote
+PASS  Menu "Top Handle" → /bags?for=her&type=top-handle  — tags [For Her, Top Handle] → 1: Cargo Tote
+PASS  Menu "Shoulder Bags" → /bags?for=her&type=shoulder-bags  — tags [For Her, Shoulder Bags] → 6: Quilted Tabby 20, Nolita 19, Chapter Shoulder Bag, Chapter Signature Bag, Petal Chain Bag, Signature Mini Bag
+PASS  Menu "Crossbody" → /bags?for=her&type=crossbody  — tags [For Her, Crossbody] → 2: Quilted Tabby 20, Nolita 19
+PASS  Menu "Mini Bags" → /bags?for=her&type=mini-bags  — tags [For Her, Mini Bags] → 2: Nolita 19, Signature Mini Bag
+PASS  Menu "All Men’s Bags" → /bags?for=him  — tags [For Him] → 5: Charter Backpack, Gotham Briefcase, Hudson Messenger, Charter Camera Bag, Burnished Duffle
+PASS  Menu "Backpacks" → /bags?for=him&type=backpacks  — tags [For Him, Backpacks] → 1: Charter Backpack
+PASS  Menu "Briefcases" → /bags?for=him&type=briefcases  — tags [For Him, Briefcases] → 1: Gotham Briefcase
+PASS  Menu "Messengers" → /bags?for=him&type=messengers  — tags [For Him, Messengers] → 1: Hudson Messenger
+PASS  Menu "Signature Canvas" → /bags?material=signature-canvas  — tags [Material: Signature Canvas] → 6: City Tote, Charter Backpack, Gotham Briefcase, Nolita 19, Chapter Signature Bag, Signature Mini Bag
+PASS  Menu "The Tabby" → /products/quilted-tabby-20
+PASS  Menu "The Charter" → /bags?edit=charter  — tags [The Charter] → 2: Charter Backpack, Charter Camera Bag
+PASS  Menu "Cargo Canvas" → /products/cargo-tote
+PASS  Menu "featured" → /bags?edit=weekend  — tags [The Weekend Edit] → 2: Cargo Tote, Burnished Duffle
+PASS  Menu "Discover The Weekend Edit" → /bags?edit=weekend  — tags [The Weekend Edit] → 2: Cargo Tote, Burnished Duffle
+PASS  Featured order (86:469)  — City Tote, Charter Backpack, Quilted Tabby 20, Gotham Briefcase, Nolita 19, Hudson Messenger, Chapter Shoulder Bag, Charter Camera Bag
+PASS  Count 8 of 13 (all bags, no duplicates)
+PASS  For Her chip → ?for=her  — City Tote, Quilted Tabby 20, Nolita 19, Chapter Shoulder Bag, Chapter Signature Bag, Petal Chain Bag, Cargo Tote, Signature Mini Bag
+PASS  For Him swaps (not stacked)  — Charter Backpack, Gotham Briefcase, Hudson Messenger, Charter Camera Bag, Burnished Duffle
+PASS  Drawer live count  — Show 6 pieces
+PASS  No sold-out colours offered (Moss)
+PASS  Applied: For Her + Colour: Black  — 6: City Tote, Quilted Tabby 20, Chapter Shoulder Bag, Chapter Signature Bag, Petal Chain Bag, Signature Mini Bag
+PASS  Filters (2)
+PASS  Reload keeps state
+PASS  Back → sort undone
+PASS  Back → colour undone
+PASS  Clear all
+PASS  Facet type=totes  — [Totes] 2: City Tote, Cargo Tote
+PASS  Facet type=crossbody  — [Crossbody] 4: Quilted Tabby 20, Nolita 19, Hudson Messenger, Charter Camera Bag
+PASS  Facet type=backpacks  — [Backpacks] 1: Charter Backpack
+PASS  Facet type=briefcases  — [Briefcases] 1: Gotham Briefcase
+PASS  Facet material=leather  — [Material: Leather] 5: Quilted Tabby 20, Hudson Messenger, Chapter Shoulder Bag, Petal Chain Bag, Burnished Duffle
+PASS  Facet material=signature-canvas  — [Material: Signature Canvas] 6: City Tote, Charter Backpack, Gotham Briefcase, Nolita 19, Chapter Signature Bag, Signature Mini Bag
+PASS  Facet edit=weekend  — [The Weekend Edit] 2: Cargo Tote, Burnished Duffle
+PASS  Facet edit=charter  — [The Charter] 2: Charter Backpack, Charter Camera Bag
+PASS  Facet price=under-250  — [Price: Under $250] 2: Nolita 19, Signature Mini Bag
+PASS  Facet price=250-400  — [Price: $250 – $400] 7: City Tote, Hudson Messenger, Chapter Shoulder Bag, Charter Camera Bag, Chapter Signature Bag, Petal Chain Bag, Cargo Tote
+PASS  Facet price=400-plus  — [Price: $400+] 4: Charter Backpack, Quilted Tabby 20, Gotham Briefcase, Burnished Duffle
+PASS  Facet for=him&material=leather  — [For Him, Material: Leather] 2: Hudson Messenger, Burnished Duffle
+PASS  Facet for=her&type=crossbody&price=under-250  — [For Her, Crossbody, Price: Under $250] 1: Nolita 19
+PASS  Totes tile → /bags?type=totes  — City Tote, Cargo Tote
+PASS  Briefcases tile → /bags?type=briefcases  — Gotham Briefcase
+PASS  Shop the Edit → /bags?edit=weekend  — Cargo Tote, Burnished Duffle
+PASS  No-results copy (86:681)
+PASS  Card hover Quick view
+PASS  Wishlist persists
+PASS  Load more 8 → 13
+PASS  <title>
+PASS  canonical /bags
+PASS  Breadcrumb JSON-LD
+PASS  SSR filtered grid
+PASS  Card "City Tote" → PDP  — /products/city-tote, breadcrumb /women
+PASS  Card "Quilted Tabby 20" → PDP  — /products/quilted-tabby-20, breadcrumb /women
+PASS  Card "Cargo Tote" → PDP  — /products/cargo-tote, breadcrumb /bags
+PASS  Card "Charter Backpack" → PDP  — /products/charter-backpack, breadcrumb /men
+PASS  Card "Burnished Duffle" → PDP  — /products/burnished-duffle, breadcrumb /men
+PASS  Card "Charter Camera Bag" → PDP  — /products/charter-camera-bag, breadcrumb /men
+PASS  Add to bag (Burnished Duffle)
+PASS  Mobile menu marks Bags
+PASS  Mobile 6 of 13
+PASS  Sheet chips match Figma 92:3263  — CATEGORY CATEGORY Totes Crossbody Backpacks | MATERIAL MATERIAL Signature Canvas Leather | PRICE PRICE Under $250 $250 – $400 $400+
+PASS  Focus trapped
+PASS  Sheet apply  — 1
+PASS  Mobile no-results (92:3539)
+PASS  Clear filters
+
+ERRORS:
+none

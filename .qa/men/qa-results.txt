@@ -1,0 +1,65 @@
+PASS  MEN is a disclosure button with aria-controls
+PASS  Hover delay (closed at 80ms)
+PASS  Hover opens Men panel
+PASS  Men panel content
+PASS  Women menu stays closed
+PASS  Leaving closes it
+PASS  Click while hover-open → /men
+PASS  MEN active pill on /men
+PASS  WOMEN not active on /men
+PASS  "All Bags" current on /men
+PASS  Enter opens
+PASS  Esc closes + focus returns
+PASS  ArrowDown opens + focuses All Bags
+PASS  Tab walks panel → BAGS  — Backpacks › Briefcases › Messengers › Crossbody › Duffles › Wallets › Card Cases › Belts › Key Fobs › The Charter › Signature Jacquard › The Gotham Edit › Burnished Leather › Discover The Burnished Duffle › Bags
+PASS  Closes when focus leaves
+PASS  Menu link Duffles → ?type=duffles  — Burnished Duffle
+PASS  Featured order (Figma 80:469)  — Charter Backpack, Charter Camera Bag, Hudson Messenger, Gotham Briefcase
+PASS  Editorial + promo share row 2
+PASS  Count text 4 of 5
+PASS  Chip → ?type=backpacks
+PASS  Drawer live count  — Show 1 piece
+PASS  Apply → type+colour
+PASS  Tags  — Backpacks|Colour: Black
+PASS  Reload keeps state
+PASS  Back undoes sort
+PASS  Back undoes colour
+PASS  Sort high→low across all 5  — 695,550,495,395,295
+PASS  Facet type=briefcases  — 1: Gotham Briefcase
+PASS  Facet type=messengers  — 1: Hudson Messenger
+PASS  Facet type=crossbody  — 2: Charter Camera Bag, Hudson Messenger
+PASS  Facet type=duffles  — 1: Burnished Duffle
+PASS  Facet colour=saddle  — 1: Hudson Messenger
+PASS  Facet colour=navy  — 2: Charter Backpack, Hudson Messenger
+PASS  Facet material=signature-jacquard  — 1: Charter Camera Bag
+PASS  Facet material=pebble-leather  — 1: Hudson Messenger
+PASS  Facet price=under-300  — 1: Charter Camera Bag
+PASS  Facet price=300-450  — 1: Hudson Messenger
+PASS  Facet price=450-plus  — 3: Charter Backpack, Gotham Briefcase, Burnished Duffle
+PASS  Facet type=crossbody&price=under-300  — 1: Charter Camera Bag
+PASS  Facet type=wallets  — 0: (no results)
+PASS  No-results copy (Figma 80:681)
+PASS  Clear filters restores
+PASS  Quick view on hover
+PASS  Wishlist toggles + persists
+PASS  <title>
+PASS  canonical /men
+PASS  Breadcrumb JSON-LD
+PASS  SSR filtered grid
+PASS  Mobile menu marks Men
+PASS  Mobile: 4 cards then editorial then promo
+PASS  Sheet live count  — Show 1 piece
+PASS  Focus trapped
+PASS  Sheet apply → URL
+PASS  Mobile no-results copy (92:3458)
+PASS  Mobile load more 4 → 5
+PASS  PDP charter-backpack  — breadcrumb→/men, images 5, colour controls 0, Complete the Chapter: Charter Camera Bag, Hudson Messenger, Gotham Briefcase
+PASS  PDP charter-camera-bag  — breadcrumb→/men, images 5, colour controls 0, Complete the Chapter: Charter Backpack, Hudson Messenger, Gotham Briefcase
+PASS  PDP hudson-messenger  — breadcrumb→/men, images 5, colour controls 0, Complete the Chapter: Charter Camera Bag, Charter Backpack, Gotham Briefcase
+PASS  PDP gotham-briefcase  — breadcrumb→/men, images 5, colour controls 0, Complete the Chapter: Charter Camera Bag, Charter Backpack, Hudson Messenger
+PASS  PDP burnished-duffle  — breadcrumb→/men, images 5, colour controls 0, Complete the Chapter: Charter Camera Bag, Charter Backpack, Hudson Messenger
+PASS  Add to bag updates header count  — Shopping bag, 1 item
+PASS  Bag shows Hudson Messenger
+
+ERRORS:
+none

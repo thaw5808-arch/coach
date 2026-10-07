@@ -1,0 +1,35 @@
+{
+  "name": "coach",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "audit": "next build && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/audit.ts",
+    "audit:run": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/audit.ts",
+    "og": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/og.ts",
+    "lighthouse": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/lighthouse.ts"
+  },
+  "dependencies": {
+    "@fontsource/bona-nova": "^5.3.0",
+    "@fontsource/bona-nova-sc": "^5.3.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@iconify-json/flowbite": "^1.2.7",
+    "@iconify-json/streamline-flex-color": "^1.2.2",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "axe-core": "^4.14.0",
+    "lighthouse": "^13.5.0",
+    "playwright": "^1.63.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  }
+}

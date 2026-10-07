@@ -1,0 +1,51 @@
+[
+  {
+    "page": "checkout-delivery",
+    "preset": "mobile",
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "0.8 s",
+      "largest-contentful-paint": "3.2 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.8 s"
+    },
+    "failing": [
+      "largest-contentful-paint (0.72, 3.2 s)",
+      "unused-javascript (0, Est savings of 26 KiB)",
+      "is-crawlable (0)",
+      "legacy-javascript-insight (0, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0, Est savings of 130 ms)"
+    ]
+  },
+  {
+    "page": "checkout-delivery",
+    "preset": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "0.2 s",
+      "largest-contentful-paint": "0.7 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "speed-index": "0.2 s"
+    },
+    "failing": [
+      "unused-javascript (0.5, Est savings of 26 KiB)",
+      "is-crawlable (0)",
+      "legacy-javascript-insight (0.5, Est savings of 14 KiB)",
+      "network-dependency-tree-insight (0)",
+      "render-blocking-insight (0.5)"
+    ]
+  }
+]

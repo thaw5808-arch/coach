@@ -1,0 +1,31 @@
+import { chromium } from "playwright";
+const BASE = "http://localhost:3000", OUT = ".qa/the-house";
+const b = await chromium.launch(); const errs = [];
+for (const [w, h] of [[1440, 900], [1024, 800], [393, 852], [320, 700]]) {
+  const c = await b.newContext({ viewport: { width: w, height: h } });
+  const p = await c.newPage();
+  p.on("pageerror", (e) => errs.push(`${w} ${e.message}`));
+  p.on("console", (m) => m.type() === "error" && errs.push(`${w} console ${m.text()}`));
+  await p.goto(`${BASE}/the-house`); await p.waitForTimeout(1500);
+  await p.screenshot({ path: `${OUT}/${w}-page.png`, fullPage: true });
+  await p.goto(`${BASE}/the-house#stores`); await p.waitForTimeout(1200);
+  await p.locator('button:has-text("Find a store near you")').click(); await p.waitForTimeout(500);
+  await p.locator("#store-locator").scrollIntoViewIfNeeded();
+  await p.screenshot({ path: `${OUT}/${w}-locator.png` });
+  await p.locator('#store-locator input[type=search]').fill("Londonn"); await p.waitForTimeout(200);
+  await p.screenshot({ path: `${OUT}/${w}-locator-empty.png` });
+  await p.locator('#store-locator input[type=search]').fill("New York, NY"); await p.waitForTimeout(200);
+  await p.locator('#store-locator button:has-text("Book an appointment")').first().click(); await p.waitForTimeout(400);
+  await p.locator('[role=dialog] [role=radio]').first().click();
+  await p.locator('[role=dialog] [data-iso]:not([aria-disabled])').nth(1).click();
+  await p.locator('[role=dialog] #booking-time [role=radio]:not([aria-disabled])').nth(1).click(); await p.waitForTimeout(200);
+  await p.screenshot({ path: `${OUT}/${w}-booking.png` });
+  await p.keyboard.press("Escape");
+  await p.goto(`${BASE}/the-house#careers`); await p.waitForTimeout(1200);
+  await p.locator('button:has-text("View openings")').click(); await p.waitForTimeout(300);
+  await p.locator('#openings button[aria-expanded]').first().click(); await p.waitForTimeout(200);
+  await p.locator("#openings").scrollIntoViewIfNeeded();
+  await p.screenshot({ path: `${OUT}/${w}-careers.png` });
+  await c.close();
+}
+await b.close(); console.log(errs.length ? errs.join("\n") : "no page errors");
